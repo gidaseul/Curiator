@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment
+.env
+*.env
+
+# TTS 생성 파일
+tts/outputs/*.wav
+tts/outputs/*.mp3
+tts/outputs/*.ogg
+tts/outputs/*.webm
+
+# LLM 임시 결과물
+llm/docent_result.json
+llm/desc.txt
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# MacOS
+.DS_Store
+.DS_Store?
+
+# IDE
+.vscode/
+.idea/
+
+# 전시 지식 색인 (scripts/ingest.py 로 다시 만듭니다)
+data/index/
+
+# 목소리 복제용 가중치와 화자 임베딩
+checkpoints_v2/
+processed/
+
+# 테스트
+.pytest_cache/

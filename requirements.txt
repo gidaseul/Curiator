@@ -1,0 +1,9 @@
+# 기본 실행에 필요한 것 (해설 생성, Gemini 음성, 전시 지식 검색, S3 저장)
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-dotenv>=1.0.0
+google-genai>=1.0.0
+boto3>=1.34.0
+python-multipart>=0.0.9
+pydub>=0.25.1          # mp3 변환에 ffmpeg 가 필요합니다
+audioop-lts; python_version >= "3.13"   # pydub 이 쓰는 audioop 이 3.13 에서 빠졌습니다

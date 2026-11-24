@@ -1,0 +1,10 @@
+# 선택: API 키 없이 쓰는 오픈소스 음성(MeloTTS)과 목소리 복제(OpenVoice)
+# 설치하지 않아도 서버는 뜹니다. 이 경로를 호출하면 "설치되어 있지 않다"는 응답이 옵니다.
+torch>=2.0.0
+# pip install git+https://github.com/myshell-ai/MeloTTS
+# pip install git+https://github.com/myshell-ai/OpenVoice
+# OpenVoice 실행에 함께 필요한 경우가 많은 것:
+#   pip install faster-whisper whisper-timestamped wavmark
+#   pip install python-mecab-ko python-mecab-ko-dic
+#   python -m unidic download
+# OpenVoice 가중치(checkpoints_v2/)는 저장소에 넣지 않습니다. 공식 안내에 따라 내려받으세요.
